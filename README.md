@@ -1,4 +1,4 @@
-# AudioSynthesizer
+# Audio Synthesizer
 Audio Synthesizer Lib for Arduino DUE
 ## Functions:
 > * FAST ANALOG INPUT / OUTPUT
