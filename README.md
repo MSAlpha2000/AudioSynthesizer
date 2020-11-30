@@ -200,35 +200,35 @@ void loop() {
 }
 ```
 ## Как помочь проекту?
-Мы искренне надеемся, что написанная нами библиотека окажется полезной для Вас
-Автор проекта не приследует никакие коммерческие цели - **продукт создан исключительно во благо людей**
-Програмный код проекта распространяется открыто и совершенно бесплатно
-Проект призван помочь музыкантам-любителям и начинающим музыкантам, заменив дорогостоящий проффесиональный синтезатор дешёвым, но оправдывающим себя, аналогом на платформе Arduino
-Все предложения по улучшению / доработке, комментарии и т. д. пишите нам на электронную почту rozmari1123@gmail.com
-Мы постараемся оперативно реагировать на все Ваши предложения
-`Мы будем Вам очень признательны если Вы поддержите проект ЛЮБЫМ способом. Например, Вы можете поделиться им с друзьями и знакомыми, распространить в соц. сетях или сделать обзор на продукт в своём блоге или на канале`
+Мы искренне надеемся, что написанная нами библиотека окажется полезной для Вас.
+Автор проекта не приследует никакие коммерческие цели - **продукт создан исключительно во благо людей**.
+Програмный код проекта распространяется открыто и совершенно бесплатно.
+Проект призван помочь музыкантам-любителям и начинающим музыкантам, заменив дорогостоящий проффесиональный синтезатор дешёвым, но оправдывающим себя, аналогом на платформе Arduino.
+Все предложения по улучшению / доработке, комментарии и т. д. пишите нам на электронную почту rozmari1123@gmail.com.
+Мы постараемся оперативно реагировать на все Ваши предложения.
+`Мы будем Вам очень признательны если Вы поддержите проект ЛЮБЫМ способом. Например, Вы можете поделиться им с друзьями и знакомыми, распространить в соц. сетях или сделать обзор на продукт в своём блоге или на канале.`
 **Вместе мы можем создавать будущее и менять мир к лучшему!**
 
 # Audio Synthesizer
 Audio Synthesizer Lib for Arduino DUE
 ## Functions:
-> * FAST ANALOG INPUT / OUTPUT
-> * STEREO / MONO AUDIO OUTPUT
-> * MONO CHANNEL SELECTION
-> * INTERNAL / EXTERNAL AUDIO PROCESSOR
-> * MEMORY FOR NOTES WITH MULTIPLE CARRIER WAVES
-> * OSCILLATOR
-> * ENVELOPE (AMPLITUDE / FREQUENCY)
-> * VIBRATTO (TREMOLO (AMPLITUDE) / BEND (FREQUENCY))
-> * LEGATO
-> * STAKATTO
-> * PITCH SHIFTER
-> * SOUND EFFECTS:
-> > * CLIPPING (HARD (DISTORTION) / SOFT (OVERLOAD))
-> > * DELAY
-> > * CHORUS
-> > * FLANGER
-> > * PHASER
+* FAST ANALOG INPUT / OUTPUT
+* STEREO / MONO AUDIO OUTPUT
+* MONO CHANNEL SELECTION
+* INTERNAL / EXTERNAL AUDIO PROCESSOR
+* MEMORY FOR NOTES WITH MULTIPLE CARRIER WAVES
+* OSCILLATOR
+* ENVELOPE (AMPLITUDE / FREQUENCY)
+* VIBRATTO (TREMOLO (AMPLITUDE) / BEND (FREQUENCY))
+* LEGATO
+* STAKATTO
+* PITCH SHIFTER
+* SOUND EFFECTS:
+* CLIPPING (HARD (DISTORTION) / SOFT (OVERLOAD))
+* DELAY
+* CHORUS
+* FLANGER
+* PHASER
 ## Advantages:
 * Extensive features (a set of professional functions)
 * Digital synthesis * * absolutely any sound**
@@ -410,11 +410,11 @@ void loop() {
 }
 ```
 ## How can I help the project?
-We sincerely hope that the library we have written will be useful for You
-The author of the project does not pursue any commercial goals - * * the product was created exclusively for the benefit of people**
-The program code of the project is distributed openly and completely free of charge
-The project is designed to help Amateur musicians and novice musicians by replacing an expensive professional synthesizer with a cheap, but justified, analog on the Arduino platform
-All suggestions for improvement / improvement, comments, etc. write to us by email rozmari1123@gmail.com
-We will try to respond promptly to all your suggestions
-`We will be very grateful if you support the project in ANY way. For example, you can share it with friends and acquaintances, distribute it in social networks. or make a review of the product on your blog or channel`
+We sincerely hope that the library we have written will be useful for You.
+The author of the project does not pursue any commercial goals - * * the product was created exclusively for the benefit of people**.
+The program code of the project is distributed openly and completely free of charge.
+The project is designed to help Amateur musicians and novice musicians by replacing an expensive professional synthesizer with a cheap, but justified, analog on the Arduino platform.
+All suggestions for improvement / improvement, comments, etc. write to us by email rozmari1123@gmail.com.
+We will try to respond promptly to all your suggestions.
+`We will be very grateful if you support the project in ANY way. For example, you can share it with friends and acquaintances, distribute it in social networks. or make a review of the product on your blog or channel.`
 **Together we can create the future and change the world for the better!**
