@@ -231,9 +231,9 @@ Audio Synthesizer Lib for Arduino DUE
 * PHASER
 ## Advantages:
 * Extensive features (a set of professional functions)
-* Digital synthesis * * absolutely any sound**
+* Digital synthesis **absolutely any sound**
 * A large number of carrier frequencies on a single note
-* The library has an example - * * working synthesizer**
+* The library has an example - **working synthesizer**
 * Ease of use
 * Intuitive features
 * Well-commented code
@@ -411,10 +411,10 @@ void loop() {
 ```
 ## How can I help the project?
 We sincerely hope that the library we have written will be useful for You.
-The author of the project does not pursue any commercial goals - * * the product was created exclusively for the benefit of people**.
+The author of the project does not pursue any commercial goals - **the product was created exclusively for the benefit of people**.
 The program code of the project is distributed openly and completely free of charge.
 The project is designed to help Amateur musicians and novice musicians by replacing an expensive professional synthesizer with a cheap, but justified, analog on the Arduino platform.
-All suggestions for improvement / improvement, comments, etc. write to us by email rozmari1123@gmail.com.
+All suggestions for improvement, comments, etc. write to us by email rozmari1123@gmail.com.
 We will try to respond promptly to all your suggestions.
 `We will be very grateful if you support the project in ANY way. For example, you can share it with friends and acquaintances, distribute it in social networks. or make a review of the product on your blog or channel.`
 **Together we can create the future and change the world for the better!**
