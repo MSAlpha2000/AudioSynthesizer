@@ -1,3 +1,4 @@
+![Синтезатор на Ардуино](https://github.com/MatInnovation/AudioSynthesizer/blob/main/AudioSynthesizer.png)
 # Audio Synthesizer
 Audio Synthesizer Lib for Arduino DUE
 ## Functions:
