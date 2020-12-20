@@ -1,7 +1,7 @@
 #pragma once
 /*
    Эффект 'КЛИППИНГ' (применяется, например, в электрогитаре
-   Два редима: ЖЁСТКИЙ (DISTORTION) и МЯГКИЙ (OVERLOAD)
+   Два редима: ЖЁСТКИЙ (DISTORTION) и МЯГКИЙ (OVERDRIVE)
 */
 class ClippingClass {
   public:
