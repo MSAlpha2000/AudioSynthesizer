@@ -14,7 +14,7 @@
 * Стакатто
 * Питч шифтер (изменение тона ноты)
 * Звуковые эффекты:
-    * Отсекание (клиппинг) (жёсткий (искажение) / мягкий (перегрузка))
+    * Отсекание (клиппинг) (жёсткий (искажение) / мягкий (перегруз))
     * Задержка
     * Хор
     * Флэнжер
@@ -224,7 +224,7 @@ Audio Synthesizer Lib for Arduino DUE
 * STAKATTO
 * PITCH SHIFTER
 * SOUND EFFECTS:
-* CLIPPING (HARD (DISTORTION) / SOFT (OVERLOAD))
+* CLIPPING (HARD (DISTORTION) / SOFT (OVERDRIVE))
 * DELAY
 * CHORUS
 * FLANGER
