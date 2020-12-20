@@ -15,8 +15,8 @@
    |  > LEGATO                                                | > Легато                                                              |
    |  > STAKATTO                                              | > Стакатто                                                            |
    |  > PITCH SHIFTER                                         | > Питч шифтер (изменение тона ноты)                                   |
-   |  > SOUND EFFECTS:                                        | > Звуковые эффекты:                                                    |
-   |  > > CLIPPING (HARD (DISTORTION) / SOFT (OVERLOAD))      | > > Отсекание (клиппинг) (жёсткий (искажение) / мягкий (перегрузка))  |
+   |  > SOUND EFFECTS:                                        | > Звуковые эффекты:                                                   |
+   |  > > CLIPPING (HARD (DISTORTION) / SOFT (OVERDRIVE))     | > > Отсекание (клиппинг) (жёсткий (искажение) / мягкий (перегруз))    |
    |  > > DELAY                                               | > > Задержка                                                          |
    |  > > CHORUS                                              | > > Хор                                                               |
    |  > > FLANGER                                             | > > Флэнжер                                                           |
