@@ -61,7 +61,7 @@
 #define INTERNAL_SOURCE 0
 #define EXTERNAL_SOURCE 4095
 #define DEFAULT_SOURCE 2048
-//Подключаем библиотеку для работы с прерыванияями по таймеру
+//Подключаем стороннюю библиотеку для работы с прерыванияями по таймеру
 #include <DueTimer.h>
 //Подключаем все заголовочные файлы для работы с внешними классами
 #include "ADCInterface.hpp"
