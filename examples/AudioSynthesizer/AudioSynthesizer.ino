@@ -1,4 +1,3 @@
-#define OPTIMIZATION_DELAY                                                              //Оптимизируем для нужных параметров
 #include <AudioSynthesizer.hpp>                                                         //Подключим заголовочный файл библиотеки
 #include <iarduino_KB.h>                                                                //Подключим библиотеку для работы с матричной клавиатурой (сторонняя библиотека от iarduino)
 iarduino_KB KB (2, 3, 4, 5, 6, 7, 8, 9);                                                //Клавиатура
@@ -25,9 +24,9 @@ void setup() {
   pinMode(17, INPUT);
   pinMode(18, INPUT);
   pinMode(19, INPUT);
-  pinMode(22, OUTPUT);
-  KB.begin(KB1);                                                                        //Матричная клавиатура 4х4
-  AudioSynthesizer.enable(40000, 40, 8, USE_ANALOG_OUTPUT, USE_ANALOG_INPUT, STEREO);   //Синтезатор (частота дискретизации 40 кГц, 40 нот, 8 несущих волн в ноте, используем ЦАП и АЦП, стерео)
+  pinMode(LED_BUILTIN, OUTPUT);
+  KB.begin(KB1);                                                                                                                  //Матричная клавиатура 4х4
+  AudioSynthesizer.enable(10000, 40, 8, USE_ANALOG_OUTPUT, USE_ANALOG_INPUT, INTERNAL_SOURCE, STEREO, INTERNAL_SOURCE);           //Синтезатор (частота дискретизации 10 кГц, 40 нот, 8 несущих волн в ноте, используем ЦАП и АЦП, стерео, внутренний источник)
 }
 void loop() {
   if (KB.check(KEY_DOWN)) {                                                             //Если нажата клавиша на клавиатуре
@@ -144,11 +143,8 @@ void loop() {
         AudioSynthesizer.waveFreq(noteChanel, 6, map(AudioSynthesizer.input(A6), 0, 4095, 0, 20000));
         AudioSynthesizer.waveFreq(noteChanel, 7, map(AudioSynthesizer.input(A7), 0, 4095, 0, 20000));
       }
-      AudioSynthesizer.volume(AudioSynthesizer.input(A8));                              //Громкость
     }
   }
   AudioSynthesizer.audioOutputMode(digitalRead(18), digitalRead(19));                   //Стерео / моно, канал
-  AudioSynthesizer.process();                                                           //Обрабатываем сигнал
-  AudioSynthesizer.output(INTERNAL_SOURCE);                                             //Выводим с внутреннего источника (внутреннего процессора)
-  digitalWrite(22, AudioSynthesizer.getProcess());                                      //Индикатора обработки сигнала
+  digitalWrite(LED_BUILTIN, AudioSynthesizer.getProcess());                             //Индикатор обработки сигнала
 }
