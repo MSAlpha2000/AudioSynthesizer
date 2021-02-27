@@ -1,6 +1,6 @@
 ![Синтезатор на Ардуино Synthesizer on Arduino](https://github.com/MatInnovation/AudioSynthesizer/blob/main/AudioSynthesizer.png)
 # Синтезатор на Ардуино
-Библиотека аудио синтезатор на Arduino DUE
+Библиотека аудио синтезатор для Arduino DUE
 ## Функции:
 * Быстрый аналоговый ввод / вывод
 * Стерео / моно аудио выход
@@ -206,7 +206,7 @@ void loop() {
 **Вместе мы можем создавать будущее и менять мир к лучшему!**
 
 # Synthesizer on Arduino
-Audio Synthesizer Lib on Arduino DUE
+Audio Synthesizer Lib for Arduino DUE
 ## Functions:
 * FAST ANALOG INPUT / OUTPUT
 * STEREO / MONO AUDIO OUTPUT
