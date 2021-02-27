@@ -47,7 +47,7 @@
 #include <AudioSynthesizer.hpp>                                                         //Подключим заголовочный файл библиотеки
 #include <iarduino_KB.h>                                                                //Подключим библиотеку для работы с матричной клавиатурой (сторонняя библиотека от iarduino)
 iarduino_KB KB (2, 3, 4, 5, 6, 7, 8, 9);                                                //Клавиатура
-bool mode = true;                                                                       //Режим (играем / не играем (настраиваем параметры)
+bool mode = true;                                                                       //Режим (играем / не играем (настраиваем параметры))
 bool select = false;                                                                    //Выбор (какие параметры настраиваем)
 uint8_t group = 0;                                                                      //Группа нот (A / B / C / D)
 uint8_t noteChanel = 0;                                                                 //Номер ноты
@@ -253,7 +253,7 @@ The library is written only to work on Arduino DUE
 #include <AudioSynthesizer.hpp>                                                         //Подключим заголовочный файл библиотеки
 #include <iarduino_KB.h>                                                                //Подключим библиотеку для работы с матричной клавиатурой (сторонняя библиотека от iarduino)
 iarduino_KB KB (2, 3, 4, 5, 6, 7, 8, 9);                                                //Клавиатура
-bool mode = true;                                                                       //Режим (играем / не играем (настраиваем параметры)
+bool mode = true;                                                                       //Режим (играем / не играем (настраиваем параметры))
 bool select = false;                                                                    //Выбор (какие параметры настраиваем)
 uint8_t group = 0;                                                                      //Группа нот (A / B / C / D)
 uint8_t noteChanel = 0;                                                                 //Номер ноты
