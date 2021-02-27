@@ -246,7 +246,7 @@ All that is required from the user is to connect the library and enjoy the synth
 * The library allows you to use its individual classes, as well as to interfere with any stage of sound creation and processing - **all the necessary functions have already been created for this purpose**
 ## Connecting the library in the Arduino IDE
 Sketch -> Connect library -> Add .ZIP library...
-## library Features
+## Library Features
 The library is written only to work on Arduino DUE
 ## Example of use
 ```С++
